@@ -1,0 +1,12 @@
+runner/LoginPageTest.java
+ runner.LoginPageTest
+dresscollections/HomePage.java
+ dresscollections.HomePage
+dresscollections/AccountPage.java
+ dresscollections.AccountPage
+steps/AccountPageSteps.java
+ steps.AccountPageSteps
+steps/HomePageSteps.java
+ steps.HomePageSteps
+runner/AccountPageTest.java
+ runner.AccountPageTest
