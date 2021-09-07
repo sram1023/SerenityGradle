@@ -1,12 +1,14 @@
-runner/LoginPageTest.java
- runner.LoginPageTest
-dresscollections/HomePage.java
- dresscollections.HomePage
-dresscollections/AccountPage.java
- dresscollections.AccountPage
+steps/ProductStepDefinitions.java
+ steps.ProductStepDefinitions
+pagemethods/AccountPage.java
+ pagemethods.AccountPage
+pagemethods/HomePage.java
+ pagemethods.HomePage
 steps/AccountPageSteps.java
  steps.AccountPageSteps
+base/BaseTest.java
+ base.BaseTest
+runner/RunTest.java
+ runner.RunTest
 steps/HomePageSteps.java
  steps.HomePageSteps
-runner/AccountPageTest.java
- runner.AccountPageTest

@@ -29,6 +29,7 @@ targetCompatibility = 1.8
 ext {
     slf4jVersion = '1.7.7'
     serenityCoreVersion = '2.5.5'
+    serenityCucumberVersion = '2.6.0'
     junitVersion = '4.13'
     assertJVersion = '3.8.0'
     logbackVersion = '1.2.3'
@@ -37,6 +38,7 @@ ext {
 dependencies {
     testCompile "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-junit:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-cucumber6:${serenityCucumberVersion}",
             "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
             "junit:junit:${junitVersion}",
             "org.assertj:assertj-core:${assertJVersion}"
@@ -45,6 +47,11 @@ dependencies {
 test {
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
+}
+
+test{
+    systemProperty 'cucumber.options', '--plugin junit:target/surefire-reports/cucumber-junit.xml'
+    include '**/*Test.class'
 }
 
 gradle.startParameter.continueOnFailure = true

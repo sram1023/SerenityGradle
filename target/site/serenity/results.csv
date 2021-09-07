@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Account page test","Search product","SUCCESS","2021-09-03T12:10:26.375+01:00[Europe/London]","0.0","17.06"
-"Login page test","Login","SUCCESS","2021-09-03T12:10:46.681+01:00[Europe/London]","0.0","11.65"
+"Account creation","Create the account and search the product","SUCCESS","2021-09-07T11:27:42.056+01:00[Europe/London]","0.0","15.13"

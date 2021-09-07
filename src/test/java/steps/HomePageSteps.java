@@ -1,6 +1,6 @@
 package steps;
 
-import dresscollections.HomePage;
+import pagemethods.HomePage;
 import net.thucydides.core.annotations.Step;
 import org.junit.Assert;
 
