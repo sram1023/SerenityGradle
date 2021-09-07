@@ -47,9 +47,7 @@ dependencies {
 test {
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
-}
 
-test{
     systemProperty 'cucumber.options', '--plugin junit:target/surefire-reports/cucumber-junit.xml'
     include '**/*Test.class'
 }
